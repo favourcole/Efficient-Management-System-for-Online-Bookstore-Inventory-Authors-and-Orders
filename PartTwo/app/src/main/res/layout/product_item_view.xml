@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productname"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        tools:text="Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productquantity"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/productname"
+        android:textSize="20dp"
+        tools:text="Quantity"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productunit"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/productquantity"
+        tools:text="Unit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/productunit"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"/>
+
+</RelativeLayout>
